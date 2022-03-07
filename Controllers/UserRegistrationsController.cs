@@ -16,7 +16,7 @@ namespace Insurence.Controllers
     {
         private insurenceEntities1 db = new insurenceEntities1();
 
-        // GET: api/UserRegistrations
+        // GET: api/UserRegistrationss
         public IQueryable<UserRegistration> GetUserRegistrations()
         {
             return db.UserRegistrations;
